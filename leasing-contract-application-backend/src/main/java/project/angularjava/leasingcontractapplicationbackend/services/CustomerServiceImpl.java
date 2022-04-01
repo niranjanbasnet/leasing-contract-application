@@ -24,6 +24,7 @@ public class CustomerServiceImpl implements CustomerService{
 
     @Override
     public void createCustomer(Customer customer) {
+
         System.out.println("Inside service "+ customer.getFirstname());
     }
 
